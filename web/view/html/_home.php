@@ -14,7 +14,7 @@
             </div>
             
             <div id="rating">
-            <strong><?=$rated_place->title;?></strong> (<a target="_new" href="http://www.google.co.uk/maps?z=13&amp;q=<?=$rated_place->geograph_uri;?>.kml">map</a>)
+            <strong><?=$rated_place->title;?></strong> (<a target="_new" href="http://www.bing.com/maps/default.aspx?v=2&amp;mapurl=<?=$rated_place->geograph_uri;?>.kml">map</a>)
                <p>
                   Rating: <strong><?=$average_rating;?></strong> <small>(from <?=$rated_place->votes;?> vote<?=($rated_place->votes == 1 ? '' : 's');?>)</small>
                </p>

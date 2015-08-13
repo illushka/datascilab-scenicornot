@@ -9,7 +9,7 @@
          
          <div id="rating">
             <strong><?=$place['title'];?></strong>
-            (<a target="_new" href="http://www.google.co.uk/maps?z=13&amp;q=<?=$place['geograph_uri'];?>.kml">map</a>)
+            (<a target="_new" href="http://www.bing.com/maps/default.aspx?v=2&amp;mapurl=<?=$place['geograph_uri'];?>.kml">map</a>)
             <p>
             <? if($place['votes']): ?>
                Rating: <strong><?=$place['score'];?></strong> <small>(from <?=$place['votes'];?> vote<?=($place['votes'] == 1 ? '' : 's');?>)</small>
